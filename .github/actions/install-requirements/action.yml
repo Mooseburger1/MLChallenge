@@ -1,0 +1,15 @@
+name: "Python Dependency Installation"
+description: "Install Python dependencies"
+inputs:
+  path: # id of input
+    description: "path to requirements.txt"
+    required: false
+    default: "requirements.txt"
+runs:
+  using: "composite"
+  steps:
+    - run: ${{ github.action_path }}/script.sh ${{ inputs.path }}
+      shell: bash
+branding:  
+  icon: "terminal"	# https://feathericons.com/
+  color: "blue"
