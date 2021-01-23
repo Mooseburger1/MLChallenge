@@ -1,0 +1,7 @@
+# Requirements for tf_handpose project
+# Usage:
+# pip install -r requirements.txt
+
+-r requirements/build_requirements.txt
+-r requirements/dev_requirements.txt
+-r requirements/docs_requirements.txt

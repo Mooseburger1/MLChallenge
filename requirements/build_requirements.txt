@@ -1,0 +1,28 @@
+# Requirements for tf_handpose project
+# Usage:
+# pip install -r requirements.txt
+# ======================================================================================
+# FileIO
+pyyaml
+requests
+# Data analysis
+numpy
+pandas
+xlrd
+scipy
+sklearn
+statsmodels
+# Utilities
+tqdm
+# Visualization
+pydot
+graphviz
+matplotlib
+ipympl
+netron
+# Test
+pytest
+cython
+# Install packages from github
+# On Windows
+# git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI&egg=pycocotools
